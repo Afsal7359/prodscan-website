@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "RedditSans";
-    src: url("../fonts/RedditSans-Bold.ttf?2b4592e822a4defd83a97d56065a8d51") format("ttf"),
-url("../fonts/RedditSans-BoldItalic.woff?2b4592e822a4defd83a97d56065a8d51") format("woff"),
-url("../fonts/RedditSans-ExtraBold.ttf?2b4592e822a4defd83a97d56065a8d51#iefix") format("ttf"),
-url("../fonts/RedditSans-ExtraBold.ttf?2b4592e822a4defd83a97d56065a8d51") format("ttf"),
-url("../fonts/RedditSans-ExtraBoldItalic.woff2?2b4592e822a4defd83a97d56065a8d51#flaticon_pintex") format("woff2")
+    font-family: "flaticon";
+    src: url("../fonts/flaticon320a.woff2?2b4592e822a4defd83a97d56065a8d51") format("woff2"),
+url("../fonts/flaticon320a.woff?2b4592e822a4defd83a97d56065a8d51") format("woff"),
+url("../fonts/flaticon320a.eot?2b4592e822a4defd83a97d56065a8d51#iefix") format("embedded-opentype"),
+url("../fonts/flaticon320a.ttf?2b4592e822a4defd83a97d56065a8d51") format("truetype"),
+url("../fonts/flaticonx320a.html?2b4592e822a4defd83a97d56065a8d51#flaticon_pintex") format("svg")
 }
 
-span[class^="RedditSans-"]:before, span[class*=" RedditSans-"]:before {
-  font-family: RedditSans!important;
+span[class^="flaticon-"]:before, span[class*=" flaticon-"]:before {
+  font-family: flaticon!important;
   font-style: normal;
   font-weight: normal!important;
   font-variant: normal;
