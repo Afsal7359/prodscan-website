@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <defs>
+    <!-- Light Theme Gradient -->
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Dark Theme Gradient -->
+    <linearGradient id="darkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Group -->
+  <g id="logo">
+    <!-- Icon -->
+    <path d="M15,10 h20 a5,5 0 0 1 5,5 v20 a5,5 0 0 1 -5,5 h-20 a5,5 0 0 1 -5,-5 v-20 a5,5 0 0 1 5,-5 z" 
+          fill="url(#lightGradient)" />
+    
+    <!-- Scan Lines -->
+    <g fill="none" stroke="#fff" stroke-width="1.5">
+      <line x1="20" y1="20" x2="30" y2="20" />
+      <line x1="20" y1="25" x2="30" y2="25" />
+      <line x1="20" y1="30" x2="30" y2="30" />
+    </g>
+
+    <!-- Text -->
+    <text x="50" y="33" 
+          font-family="Arial, sans-serif" 
+          font-size="24" 
+          font-weight="bold" 
+          fill="#1e293b">
+      Prod<tspan fill="url(#lightGradient)">Scan</tspan>
+    </text>
+  </g>
+
+  <!-- Moving Scan Line -->
+  <line x1="20" y1="15" x2="20" y2="35"
+        stroke="white" 
+        stroke-width="1" 
+        opacity="0.8">
+    <animate 
+      attributeName="x1" 
+      values="20;30;20" 
+      dur="2s" 
+      repeatCount="indefinite" />
+    <animate 
+      attributeName="x2" 
+      values="20;30;20" 
+      dur="2s" 
+      repeatCount="indefinite" />
+  </line>
+</svg>
